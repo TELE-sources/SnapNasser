@@ -1,17 +1,20 @@
-//
-//  ContentView.swift
-//  SnapNasser
-//
-//  Created by AAC-Tunisia on 07/11/2026.
-//
-
 import SwiftUI
 
+/// Racine de l'appli : barre d'onglets Accueil et Historique.
 struct ContentView: View {
     var body: some View {
-        // Écran vide du Milestone 0 : fond crème, couleurs du thème.
-        Theme.fond
-            .ignoresSafeArea()
+        TabView {
+            AccueilView()
+                .tabItem {
+                    Label("Accueil", systemImage: "house.fill")
+                }
+
+            HistoriqueView()
+                .tabItem {
+                    Label("Historique", systemImage: "clock.fill")
+                }
+        }
+        .tint(Theme.orange)
     }
 }
 

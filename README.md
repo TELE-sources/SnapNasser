@@ -50,7 +50,7 @@ SnapNasser/
 ├── SnapNasser.xcodeproj/      # projet Xcode
 ├── SnapNasser/                # application iPhone (code Swift)
 │   ├── Theme/Theme.swift      # couleurs et polices
-│   ├── Ecrans/                # écrans (vide pour l'instant)
+│   ├── Ecrans/                # AccueilView, HistoriqueView (écran vide)
 │   ├── Modeles/               # modèles de données (vide pour l'instant)
 │   └── Services/              # Vision, serveur (vide pour l'instant)
 └── worker/                    # serveur intermédiaire (Cloudflare Worker)

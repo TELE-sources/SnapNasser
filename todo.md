@@ -41,9 +41,9 @@ Application iPhone gratuite, en français, pour les élèves de 3ème année sec
 
 ## Milestone 1 : Accueil et navigation
 
-- [ ] Écran d'accueil : logo, phrase d'accroche, gros bouton rond orange avec icône d'appareil photo.
-- [ ] Barre d'onglets en bas : Accueil et Historique.
-- [ ] Écran d'historique vide, avec un message d'accueil.
+- [x] Écran d'accueil : logo, phrase d'accroche, gros bouton rond orange avec icône d'appareil photo.
+- [x] Barre d'onglets en bas : Accueil et Historique.
+- [x] Écran d'historique vide, avec un message d'accueil.
 
 **Validé quand :** on navigue entre les deux onglets et le design correspond au cadrage.
 
