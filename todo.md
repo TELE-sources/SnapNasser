@@ -50,9 +50,12 @@ Application iPhone gratuite, en français, pour les élèves de 3ème année sec
 ## Milestone 2 : Prise de photo
 
 - [ ] Demander l'autorisation de l'appareil photo et de la galerie, avec des messages en français.
+  À vérifier sur iPhone : les messages sont ajoutés au projet, mais la demande n'apparaît pas dans le simulateur.
 - [ ] Prendre une photo avec l'appareil photo.
-- [ ] Importer une photo depuis la galerie.
+  À vérifier sur iPhone : le code compile, mais la caméra n'existe pas dans le simulateur.
+- [x] Importer une photo depuis la galerie.
 - [ ] Écran de cadrage et de validation de la photo.
+  Aperçu et boutons « Reprendre » / « Utiliser cette photo » vérifiés. Le recadrage n'est pas encore fait.
 
 **Validé quand :** on peut photographier ou importer un exercice et voir l'image sur l'écran de validation (test sur un vrai iPhone).
 
